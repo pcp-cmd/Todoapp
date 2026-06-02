@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TodoApp" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/warm_black</item>
+        <item name="android:windowBackground">@color/warm_black</item>
+    </style>
+</resources>
