@@ -2,13 +2,17 @@ name: Android Checks
 
 on:
   push:
-    branches: ["master", "main", "security-hardening"]
+    branches: ["master", "main"]
   pull_request:
     branches: ["master", "main"]
   workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: android-checks-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
