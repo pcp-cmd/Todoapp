@@ -19,6 +19,7 @@ release/
 # Gradle files
 .gradle/
 build/
+*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -37,6 +38,12 @@ android-sdk/
 # Keystore files
 *.jks
 *.keystore
+keystore.properties
+
+# Release output metadata
+mapping.txt
+seeds.txt
+usage.txt
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild/
