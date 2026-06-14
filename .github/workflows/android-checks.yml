@@ -18,6 +18,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Run repository check
+        run: bash scripts/repo-check.sh
+
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
