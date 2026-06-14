@@ -1,5 +1,7 @@
 # CoolCat - TodoApp
 
+[![Android Checks](https://github.com/pcp-cmd/Todoapp/actions/workflows/android-checks.yml/badge.svg)](https://github.com/pcp-cmd/Todoapp/actions/workflows/android-checks.yml)
+
 一款基于 Jetpack Compose 构建的 Android 待办事项应用，采用 Claude 风格的温暖配色设计，支持任务分类、子任务、周期重复、日历同步和任务关联等完整功能。
 
 ## ✨ 功能特性
